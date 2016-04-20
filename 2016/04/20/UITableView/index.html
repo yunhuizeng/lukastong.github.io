@@ -10,6 +10,13 @@
 
     <!--Description-->
     
+        <meta name="description" content="UITableView介绍
+1. UITableView继承自UIScrollView，支持垂直滚动，而且性能极好
+2. UITableView的两种样式：
+    不分组UITableViewStylePlain；
+    分组UITableViewStyleGrouped。
+3. 如何在UITa">
+    
 
     <!--Author-->
     
@@ -17,6 +24,8 @@
     
 
     <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Swift_UITableView"/>
     
 
     <!--Open Graph Site Name-->
@@ -29,7 +38,7 @@
 
     <!-- Title -->
     
-    <title>Archiv - THE CHAZ BLOG</title>
+    <title>Swift_UITableView - THE CHAZ BLOG</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
@@ -95,63 +104,92 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('http://ivansun123.b0.upaiyun.com/chaz/pic187.pic_hd.jpg!bac')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Archiv</h1>
+                <div class="post-heading">
+                    <h1>Swift_UITableView</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2016-04-20
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/ios，swift/">#ios，swift</a> <a href="/tags/UITableView/">#UITableView</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categories/SWIFT/">SWIFT</a>
+
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2016/04/20/UITableView/">
-        <h1 class="post-title archive">
-            Swift_UITableView
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2016-04-20
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2016/04/18/FirstNight/">
-        <h1 class="post-title archive">
-            17th Night
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2016-04-18
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p><font color="#0099ff" size="7" face="黑体">UITableView介绍</font></p>
+<pre><code>1. UITableView继承自UIScrollView，支持垂直滚动，而且性能极好
+2. UITableView的两种样式：
+    不分组UITableViewStylePlain；
+    分组UITableViewStyleGrouped。
+3. 如何在UITableView中展示数据：UITableView需要一个数据源(UIDataSource)来展示数据，UITableView会向数据源查询一共有多少行数以及每一行显示什么数据等，没有设置数据源的UITableView只是个空壳。
+4. UITableView中数据只有行的概念，并没有列的概念
+5. UITableView中每行数据都是一个UITableViewCell，UITableViewCell内部有一个UIView控件(contentView，作为其他元素的父控件)、两个UILabel控件(textLabel、detailTextLabel)、一个UIImageView控件(imageView)，分别用于容器、显示内容、详情和图片。
+</code></pre><p><font color="#ff5809" size="6" face="黑体">project1:自己实现UITableView的下拉刷新动画(swift)</font></p>
+<blockquote>
+<p>comming soon</p>
+</blockquote>
+<p><font color="#004400" size="6" face="黑  体">project2:UITableViewCell的删除、移动、置顶(swift)</font></p>
+<blockquote>
+<p>comming soon</p>
+</blockquote>
+<p><font color="#9933CC" size="6" face="黑体">project3:UITableView顶部视图的联动动画</font></p>
+<blockquote>
+<p>comming soon</p>
+<p>本篇文章深度剖析UIKit中的UITableView控件的多种常见用法，笔者将尽可能利用课余时间慢慢完善，希望读者如果有对于UITableview用法的各种困惑邮件或者留言进行交流。并完全使用Swift实现代码。笔者邮箱: 476998612@qq.com</p>
+</blockquote>
+
+            </div>
+
+            <!-- Comments -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+
+
+            </div>
         </div>
     </div>
-</div>
-
-
+</article>
 
     <!-- Footer -->
     <hr />
