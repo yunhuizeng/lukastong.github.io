@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>THE CHAZ BLOG</title>
+  <subtitle>Got a feeling that i&#39;m going under</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-08-22T13:25:57.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Chaz</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>17th Night</title>
+    <link href="http://yoursite.com/2016/08/22/FirstNight/"/>
+    <id>http://yoursite.com/2016/08/22/FirstNight/</id>
+    <published>2016-08-22T13:25:57.000Z</published>
+    <updated>2016-08-22T13:25:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>its my first time to love you with Blog</p>
+<blockquote>
+<p>April,17 2016, second day after yoyo’s birthday,<br> write this words to record that magic time.</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;its my first time to love you with Blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;April,17 2016, second day after yoyo’s birthday,&lt;br&gt; write this words to reco
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Swift_UITableView</title>
+    <link href="http://yoursite.com/2016/04/20/UITableView/"/>
+    <id>http://yoursite.com/2016/04/20/UITableView/</id>
+    <published>2016-04-19T16:00:00.000Z</published>
+    <updated>2016-08-22T13:25:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><font color="#0099ff" size="7" face="黑体">UITableView介绍</font></p>
+<pre><code>1. UITableView继承自UIScrollView，支持垂直滚动，而且性能极好
+2. UITableView的两种样式：
+    不分组UITableViewStylePlain；
+    分组UITableViewStyleGrouped。
+3. 如何在UITableView中展示数据：UITableView需要一个数据源(UIDataSource)来展示数据，UITableView会向数据源查询一共有多少行数以及每一行显示什么数据等，没有设置数据源的UITableView只是个空壳。
+4. UITableView中数据只有行的概念，并没有列的概念
+5. UITableView中每行数据都是一个UITableViewCell，UITableViewCell内部有一个UIView控件(contentView，作为其他元素的父控件)、两个UILabel控件(textLabel、detailTextLabel)、一个UIImageView控件(imageView)，分别用于容器、显示内容、详情和图片。
+</code></pre><p><font color="#ff5809" size="6" face="黑体">project1:自己实现UITableView的下拉刷新动画(swift)</font></p>
+<blockquote>
+<p>comming soon</p>
+</blockquote>
+<p><font color="#004400" size="6" face="黑  体">project2:UITableViewCell的删除、移动、置顶(swift)</font></p>
+<blockquote>
+<p>comming soon</p>
+</blockquote>
+<p><font color="#9933CC" size="6" face="黑体">project3:UITableView顶部视图的联动动画</font></p>
+<blockquote>
+<p>comming soon</p>
+<p>本篇文章深度剖析UIKit中的UITableView控件的多种常见用法，笔者将尽可能利用课余时间慢慢完善，希望读者如果有对于UITableview用法的各种困惑邮件或者留言进行交流。并完全使用Swift实现代码。笔者邮箱: 476998612@qq.com</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;font color=&quot;#0099ff&quot; size=&quot;7&quot; face=&quot;黑体&quot;&gt;UITableView介绍&lt;/font&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. UITableView继承自UIScrollView，支持垂直滚动，而且性能极好
+2. UITableView的两
+    
+    </summary>
+    
+      <category term="SWIFT" scheme="http://yoursite.com/categories/SWIFT/"/>
+    
+    
+      <category term="ios，swift" scheme="http://yoursite.com/tags/ios%EF%BC%8Cswift/"/>
+    
+      <category term="UITableView" scheme="http://yoursite.com/tags/UITableView/"/>
+    
+  </entry>
+  
+</feed>
